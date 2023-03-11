@@ -12,7 +12,8 @@ module.exports ={
       filename:'cartEntry.js',
       exposes:{
         './showCart':'./src/index.js'
-      }
+      },
+      shared:['faker']
     }),
     new htmlWebpackPlugin({
       template:'./public/index.html'
