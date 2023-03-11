@@ -13,11 +13,7 @@ module.exports ={
       exposes:{
         './showCart':'./src/index.js'
       },
-      shared:{
-        faker:{
-          singleton:true
-        }
-      }
+      shared:['faker']
     }),
     new htmlWebpackPlugin({
       template:'./public/index.html'
