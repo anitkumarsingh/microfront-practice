@@ -11,7 +11,7 @@ module.exports ={
       name:'cart',
       filename:'cartEntry.js',
       exposes:{
-        './showCart':'./src/index.js'
+        './showCart':'./src/bootstrap.js'
       },
       shared:['faker']
     }),
